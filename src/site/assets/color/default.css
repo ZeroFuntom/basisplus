@@ -1,22 +1,22 @@
 ::-moz-selection {
-  background: #5C9F24;
+  background: #f7ba60;
 }
 ::selection {
-  background: #5C9F24;
+  background: #f7ba60;
 }
 
 a {
-  color: #5C9F24;
+  color: #f7ba60;
 }
 
 a:hover {
-	color: #33782D;
+	color: #ffaf3a;
 }
 
 /* --- button theme --- */
 .btn-theme {
-  background: #5C9F24;
-  *background-color: #5C9F24;
+  background: #f7ba60;
+  *background-color: #f7ba60;
 }
 
 .btn-theme:hover,
@@ -24,45 +24,45 @@ a:hover {
 .btn-theme.active,
 .btn-theme.disabled,
 .btn-theme[disabled] {
-  background: #33782D;
-  *background: #33782D;
+  background: #ffaf3a;
+  *background: #ffaf3a;
 }
 
 .scrollup {
- background-color: #5C9F24;
+ background-color: #f7ba60;
 }
 
 /* fontawesome icons */
 [class^="icon-"].active,
 [class*=" icon-"].active {
-    background-color: #5C9F24;
+    background-color: #f7ba60;
 }
 
 .validation {
-  color: #5C9F24;
+  color: #f7ba60;
 }
 
 ul.nav li.current {
-  color: #5C9F24;
+  color: #f7ba60;
 }
 
 .navbar .nav > li > a:hover,
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:active,
 .navbar .nav > li.active > a {
-    color: #5C9F24 !important;
+    color: #f7ba60 !important;
 }
 
 .sy-pager li.sy-active a {
-  background-color: #5C9F24;
+  background-color: #f7ba60;
 }
 
 .navbar .nav > li > a:hover {
-  color: #5C9F24;
+  color: #f7ba60;
 }
 
 input:focus {
-	border: 1px solid #5C9F24;
+	border: 1px solid #f7ba60;
 	border-width:1px;
 }
 textarea:focus,
@@ -81,22 +81,22 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {
-  border-color: #5C9F24;
+  border-color: #f7ba60;
 }
 
 
 /* tab */
 
 .nav-tabs > a {
-	color:#5C9F24;
+	color:#f7ba60;
 }
 
 
 /* accordion */
 .accordion-heading a:hover {
-	color: #5C9F24;
+	color: #f7ba60;
 }
 .accordion-heading .active{
-	color: #5C9F24;
+	color: #f7ba60;
 }
 
