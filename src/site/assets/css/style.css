@@ -43,7 +43,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif;
 	line-height:1.1em;
-	color: #3a3a3a;
+	color: #000;
 	font-weight:300;
 	margin-bottom:10px;
 }
@@ -164,6 +164,7 @@ blockquote {
 	text-align:center;
 	width:auto;
 	display:inline;
+	color: #000;
 }
 
 section.dark .heading h3 {	
@@ -1166,4 +1167,42 @@ a.socialIcon:hover, .socialHoverClass {
 	.col-md-6 {
 		margin-bottom: 30px;
 	}
+}
+
+.ourMissionBackground{
+	position: relative;
+	z-index: 1;
+}
+
+.ourMissionBackground .blackFont{
+	position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(../../assets/img/slide/1.jpg) center center;
+    opacity: .4;
+    width: 100%;
+	height: 100%;
+	background-attachment:fixed;
+}
+
+.ourServicesBackground{
+	position: relative;
+	z-index: 1;
+}
+
+.ourServicesBackground .blackFont{
+	position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(../../assets/img/slide/3.jpg) center center;
+    opacity: .4;
+    width: 100%;
+	height: 100%;
+	background-attachment:fixed;
 }
