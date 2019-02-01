@@ -182,7 +182,7 @@ section.dark .heading h3 {
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 	line-height:1.6em;
-	color: #3a3a3a;
+	color: #000;
 	font-weight:300;
 }
 
@@ -424,8 +424,6 @@ ul.social-profile li a:hover {
   border-bottom: 1px dotted #eeeeee;
 }
 
-
-
 /* scroll to top */
 .scrollup{
     position:fixed;
@@ -434,6 +432,7 @@ ul.social-profile li a:hover {
     bottom:40px;
     right:20px;
 	text-align: center;
+	background-color: #33ccff;
 }
 
 .scrollup i{
@@ -446,7 +445,6 @@ a.scrollup {
 }
 
 a.scrollup:hover,a.scrollup:active,a.scrollup:focus {
-	opacity:1;
 	text-decoration:none;
 }
 a.scrollup i:hover {
@@ -1200,9 +1198,20 @@ a.socialIcon:hover, .socialHoverClass {
     bottom: 0;
     left: 0;
     right: 0;
-    background: url(../../assets/img/slide/3.jpg) center center;
+    background: url(../../assets/img/slide/2.jpg) center center;
     opacity: .4;
     width: 100%;
 	height: 100%;
 	background-attachment:fixed;
 }
+
+li {
+	color: #000;
+}
+
+/* .jumbotron{
+	background-image: url(../../assets/img/slide/4.JPG);
+	background-repeat: no-repeat;
+	background-size: auto;
+	margin-top: 88px;
+} */
